@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Formulário Trilha Inova</title>
+  </head>
+  <body>
+    <main>
+      <form id="register_form">
+        <div id="form_header">
+          <h2>Cadastre-se</h2>
+          <i id="mode_icon" class="fa-solid fa-moon"></i>
+        </div>
+        <label for="name"
+          >Nome
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" name="name" required />
+          </div>
+        </label>
+        <label for="phone"
+          >Celular
+          <div class="input-field">
+            <i class="fa-solid fa-mobile"></i>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+        </label>
+
+        <label for="email"
+          >Email
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </label>
+
+        <label for="password"
+          >Senha
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" id="password" name="password" required />
+          </div>
+        </label>
+        <label for="password"
+          >Confirmar Senha
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" id="password" name="password"  required/>
+          </div>
+        </label>
+        <button type="submit" class="register-button">Cadastrar</button>
+      </form>
+    </main>
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>

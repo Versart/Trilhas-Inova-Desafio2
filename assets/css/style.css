@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../images/Oficial_Slide_Mestre_-_Aula_magna_Programa_Trilhas.png');
+    background-size: cover;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register_form {
+   display: flex;
+   flex-direction: column;
+   padding: 30px 40px;
+   background-color: whitesmoke;
+   border-radius: 8px;
+   gap: 30px;
+   opacity: 0.90;
+   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+   transition: 0.5s linear;
+}
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mode_icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid black;
+}
+
+.input-field i {
+    font-size: 18px;
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button {
+    border: none;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(16, 16, 17);
+    color: whitesmoke;
+ }
+
+.register-button:hover {
+    transform: scale(1.02);
+}
+
+.dark#register_form {
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+}
+.dark#register_form button {
+    background-color: whitesmoke;
+    color: black;
+}
+.dark#register_form .input-field i,
+.dark#register_form .input-field input {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
